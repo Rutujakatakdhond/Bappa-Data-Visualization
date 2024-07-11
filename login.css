@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background:url('loginbkg.webp');
+    text-align: justify;
+
+} 
+
+/* Center the login form */
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 100px 100px;
+    /* border: 10px solid grey; */
+    /* border-radius: 5px; */
+    /* background-color: #f9f9f9; */
+position: relative;
+ }
+
+/* Style form elements */
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 400px , 200px;
+    font-size: 50px;
+    color: linear-gradient(45deg, #00abf0, #fd17ea);
+}
+/* .formbg{ 
+    border: 3px , 3px , palevioletred  ;
+    
+
+  
+}*/
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-sizing: 3px 3px;
+    
+    
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+} 
+
+/* #login{
+    background-image: url(login2.jpg);
+} */
+
+    /* display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    height: 100%;       
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+

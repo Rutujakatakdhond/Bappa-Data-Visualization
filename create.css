@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 120px 400px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background:url('loginbkg.webp');
+    position: relative;
+}
+#generate prompt ul li{
+    list-style: none;
+    font-size:1.3rem;
+ }
+ 
+ #generate prompt ul li a{
+     color: black;
+     display: block;
+     padding: 20px 50px;
+     border-radius:50px;
+     text-decoration: none;
+     margin-left: 10px;
+     align-items: center;
+ }
+ #generate prompt ul li a:hover{
+     color: black;
+     background-color: white;
+ }
+ .create-container h2 {
+    margin-bottom: 0px;
+    margin-top: auto;
+    text-align: center;
+    padding: 50px , 150px;
+    font-size: 50px;
+    color: linear-gradient(45deg, #00abf0, #fd17ea); 
+    /* position: relative; */
+    /* align-items: center; */
+}
+
+.create-container input[type="text"],
+.create-container input[type="give your prompt"],
+.create-container button {
+    width: 100%;
+    padding: 30px 150px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-sizing: 2px 3px;
+    align-items: center; 
+    
+    
+}
+
+/* video {
+    width: 50%; /* Set video width to 100% of its container */
+    /* height: auto; Let the browser calculate the height automatically based on the aspect ratio */
+    /* border: 1px solid #ccc; Add a border for visual clarity */
+  /* } */ 
+
+.create-container button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.create-container button:hover {
+    background-color: #45a049;
+}
+
+/* .create-container h2 {
+    margin-bottom: 0px;
+    margin-top: auto;
+    text-align: center;
+    padding: 50px , 150px;
+    font-size: 50px;
+    color: linear-gradient(45deg, #00abf0, #fd17ea); 
+    /* position: relative; */
+    /* align-items: center; */
+/* }  */

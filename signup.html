@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+</head>
+<body background="loginbkg.webp">
+    <div class="signup-container">
+        <h2>Sign In</h2>
+        <form id="signup-form" action="signup.php" method="POST">
+            <label for="email">Email</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="username">Username</label><br>
+          <input type="text" id="username" name="username"><br>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" name="password"><br>
+          <button type="submit">Signup</button>
+        </form>
+
+       
+        <a href="login.html" class="error-message">Incorrect username or Forgot password.</a> <br>
+        <hr> <!-- Horizontal line -->
+      </div>
+      
+      <section>
+      <button class="or">OR</button>
+      <div class="login--alt row clearfix">
+      <!-- <div class="title"><span class="text">Sign up Via...</span></div>
+      <div class="btn-set">
+      <button class="api google">Google</button>
+      <button class="api facebook">Facebook</button>
+      </div> -->
+      <div class="google-signup">
+        <a href="/auth/google">Sign up with Google</a>
+    </div>
+    </div>
+
+</section>
+</body>
+</html>

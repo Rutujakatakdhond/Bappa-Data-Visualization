@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 0px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+}
+nav ul{
+    float: right;   
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.4;
+}
+#navbar ul li{
+   list-style: none;
+   font-size:1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius:20px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    background-image: url("test3.jpg");
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    height:  100%;      
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: auto; */
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color:white;
+    /* text-align: ce; */
+
+}
+
+#home p{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+  }
+.button{
+  background-color: #1bc6c3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
